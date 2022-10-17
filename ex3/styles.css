@@ -1,0 +1,33 @@
+#canvas{
+    width: 600px;
+    height:600px;
+    position:fixed;
+/*     border: 1px solid red; */
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+}
+
+.img-container{
+    width: 50%;
+    position:absolute;
+    top: 50%;
+    transform:translateY(-50%);
+
+}
+
+img{
+    /* height: auto; */
+    /* margin: auto; */
+    width: 100%;
+}
+
+#shadow{
+    /* transform: rotateX(180deg); */
+    opacity: 0.45;
+    filter: blur(3px);
+    /* transform: scaleY(-1) skew(-70deg) translateX(120px); */
+    transform: scaleY(-1) skew(70deg) translateX(-120px);
+}
